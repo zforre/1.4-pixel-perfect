@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  color: #F4F4F4;
+  margin: auto 0;
+}
+
+/********************************************************************** header*/
+header {
+  position: relative;
+  color: #F8F8F8;
+  border-bottom: solid 1px #000;
+  height: 55px;
+}
+.topnav {
+  position: absolute;
+  left: 135px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.topnav > a {
+  font-size: 10px;
+  text-decoration: none;
+  padding: 10px;
+}
+/************************************************************************ main*/
+.contentarea {
+  position: relative;
+  width: 1017px;
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
+}
+
+main {
+  position: absolute;
+  width: 670px;
+  height: 600px;
+  background-color: purple;
+}
+/*********************************************************************** aside*/
+aside {
+  position: absolute;
+  left: 697px;
+  width: 320px;
+  height: 600px;
+  background-color: blue;
+}
