@@ -41,18 +41,22 @@ header {
 main {
   position: absolute;
   width: 670px;
-  height: 600px;
+
   background-color: purple;
 }
 
 .contentbox {
-  height: 
+  height: 820px;
+  background-color: white;
+  margin-bottom: 45px;
 }
+
+
 /*********************************************************************** aside*/
 aside {
   position: absolute;
   left: 697px;
   width: 320px;
-  height: 600px;
+  height: 1230px;
   background-color: blue;
 }
