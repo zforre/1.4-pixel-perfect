@@ -44,6 +44,10 @@ main {
   height: 600px;
   background-color: purple;
 }
+
+.contentbox {
+  height: 
+}
 /*********************************************************************** aside*/
 aside {
   position: absolute;
