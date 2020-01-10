@@ -12,6 +12,10 @@ body {
   padding: 0;
   height: 100%;
 }
+h2 {
+  color: black;
+  font-size: 15px;
+}
 
 /********************************************************************** header*/
 header {
@@ -44,7 +48,7 @@ header {
 
 main {
   width: 670px;
-  background-color: purple;
+  /* background-color: purple; */
   display: inline-block;
   margin-right: 25px;
 
@@ -64,7 +68,7 @@ main {
 /*********************************************************************** aside*/
 aside {
   width: 320px;
-  background-color: blue;
+  /* background-color: blue; */
   display: inline-block;
 
 }
@@ -81,6 +85,7 @@ aside {
   background-color: white;
   border: solid 2px #000;
   margin-bottom: 35px;
+  text-align: center;
 }
 
 .latest {
@@ -88,12 +93,24 @@ aside {
   background-color: white;
   border: solid 2px #000;
   margin-bottom: 35px;
+  text-align: center;
 }
 
 .feed {
   height: 530px;
   background-color: white;
   border: solid 2px #000;
+  text-align: center;
+}
+
+h2 {
+  padding-top: 15px;
+}
+
+.feed > img {
+  margin: 5px;
+  width: 40%;
+  display: inline-block;
 }
 
 /********************************************************************** footer*/
@@ -106,6 +123,7 @@ aside {
 }
 
 .footer > img {
-  width: 12%;
-
+  width: 12.5%;
+  height: 165px;
+  float: left;
 }
