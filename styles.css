@@ -12,8 +12,39 @@ body {
   padding: 0;
   height: 100%;
 }
+
+p {
+  font-size: 13px;
+  line-height: 1.9;
+  color: #000;
+  font-family: 'Lato', sans-serif;
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.text {
+  text-align: left;
+  margin-left: 35px;
+}
+
+button {
+  font-family: 'Lato', sans-serif;
+  padding: 10px 20px 10px 20px;
+
+  color: #DD6D4A;
+  border-color: #DD6D4A;
+}
+
+hr {
+  margin-top: 34px;
+  border-top: 1px solid grey;
+  width: 600px;
+}
+
 h1 {
   font-family: 'Oswald', sans-serif;
+  font-size: 22px;
   color: #000;
 }
 
@@ -24,8 +55,10 @@ h2 {
 }
 
 h3 {
-font-family: 'Lato', sans-serif;
-color: #000;
+  padding-top: 25px;
+  font-family: 'Lato', sans-serif;
+  font-size: 11px;
+  color: #DD6D4A;
 }
 
 /********************************************************************** header*/
@@ -55,7 +88,6 @@ header {
   margin-top: 50px;
   display: flex;
   justify-content: center;
-
 }
 
 main {
@@ -63,7 +95,6 @@ main {
   /* background-color: purple; */
   display: inline-block;
   margin-right: 25px;
-
 }
 
 .contentbox {
@@ -83,7 +114,6 @@ aside {
   width: 320px;
   /* background-color: blue; */
   display: inline-block;
-
 }
 
 .profile {
@@ -135,7 +165,7 @@ h2 {
   padding-top: 15px;
 }
 
-.feed > img {
+.feed>img {
   margin: 5px;
   width: 40%;
   display: inline-block;
@@ -147,10 +177,10 @@ h2 {
   width: 100%;
   height: 160px;
   border-top: solid 2px #000;
-  margin:0 auto;
+  margin: 0 auto;
 }
 
-.footer > img {
+.footer>img {
   width: 12.5%;
   height: 165px;
   float: left;
