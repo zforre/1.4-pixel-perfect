@@ -56,6 +56,7 @@ h2 {
   font-family: 'Oswald', sans-serif;
   color: black;
   font-size: 15px;
+
 }
 
 h3 {
@@ -75,18 +76,37 @@ header {
 
 .topnav {
   position: absolute;
-  left: 135px;
+  left: 125px;
   top: 50%;
   transform: translateY(-50%);
 }
 
-.topnav>a {
+.topnav > a {
   font-family: 'Lato', sans-serif;
   font-size: 10px;
   text-decoration: none;
   padding: 10px;
+  padding-right: 13px;
+  color: #000;
+}
+.topnav > a:hover {
+  color: #D85437;
+}
+.headericons {
+  position: absolute;
+  left: 1064px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
+i {
+  color: #AAAAAA;
+  font-size: 11px;
+  padding: 5px;
+}
+i:hover {
+  color: #D85437;
+}
 /************************************************************************ main*/
 .contentarea {
   margin-top: 50px;
@@ -111,6 +131,18 @@ main {
 
 .contentbox:nth-child(3) {
   margin-bottom: 70px;
+}
+
+.contenticons {
+  position: absolute;
+  left: 699px;
+  margin-top: 6px;
+  /* top: 50%;
+  transform: translateY(-50%); */
+}
+
+.contenticons > i {
+  font-size: 15px;
 }
 
 /*********************************************************************** aside*/
@@ -140,6 +172,22 @@ aside {
 
 .name {
   padding-top: 80px;
+}
+
+.profileicons {
+  padding: 10px 15px;
+}
+
+.profileicons > i {
+  padding-left: 10px;
+  padding-right: 10px;
+  border: solid 1px;
+  border-radius: 50%;
+}
+
+.profileicons > i:hover {
+  background-color: #D85437;
+  color: #fff;
 }
 
 .popular {
