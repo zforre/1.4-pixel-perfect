@@ -66,6 +66,10 @@ h3 {
   color: #DD6D4A;
 }
 
+h4 {
+  font-family: 'Oswald', sans-serif;
+}
+
 /********************************************************************** header*/
 header {
   position: relative;
@@ -198,12 +202,42 @@ aside {
   text-align: center;
 }
 
+.popular > img {
+  height: 180px;
+  width: 270px;
+  margin-bottom: 64px;
+  padding-top: 10px;
+}
+
+.popular > h4 {
+  position: absolute;
+  margin-bottom: 100px;
+  text-align: left;
+  font-size: 12px;
+  color: #000;
+}
 .latest {
   height: 460px;
   background-color: white;
   border: solid 2px #000;
   margin-bottom: 35px;
+  /* text-align: center; */
+}
+
+.latest > h2 {
   text-align: center;
+}
+
+.latest > h4 {
+  float: right;
+  font-size: 10px;
+  color: #000;
+}
+
+.latest > img {
+  display: inline-block;
+  height: 68px;
+  width: 94px;
 }
 
 .feed {
